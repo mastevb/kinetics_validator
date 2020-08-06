@@ -33,6 +33,11 @@ class KMTester(unittest.TestCase):
     def testReactionChains(self):
         """
         Checks whether the reaction chains are valid
+        What does it mean for a chain to be valid?
+        kinetic law
+        reactants
+        products
+        DAG???
         :return:
         """
         # TODO: Implement testReactions
