@@ -26,4 +26,12 @@ class KMTester(unittest.TestCase):
         :return: True iff all of the parameters have been initialized
         """
         for parameter in self.SBML.parameters:
-            print(parameter)
+            if not parameter.isSetValue():
+                return False
+        return True
+
+    def testReactions(self):
+        """
+        :return:
+        """
+        # TODO: Implement testReactions

@@ -14,3 +14,9 @@ class TestKMTester(unittest.TestCase):
 
     def setUp(self):
         self.KM = helpers.getKM()
+
+    def testTestParameterValueSet(self):
+        self.KM.testParameterValueSet()
+
+    def testTestReactions(self):
+        self.KM.testReactions()
