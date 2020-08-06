@@ -18,5 +18,5 @@ class TestKMTester(unittest.TestCase):
     def testTestParameterValueSet(self):
         self.KM.testParameterValueSet()
 
-    def testTestReactions(self):
-        self.KM.testReactions()
+    def testTestReactionChains(self):
+        self.KM.testReactionChains()

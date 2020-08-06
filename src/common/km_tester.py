@@ -30,8 +30,9 @@ class KMTester(unittest.TestCase):
                 return False
         return True
 
-    def testReactions(self):
+    def testReactionChains(self):
         """
+        Checks whether the reaction chains are valid
         :return:
         """
         # TODO: Implement testReactions
